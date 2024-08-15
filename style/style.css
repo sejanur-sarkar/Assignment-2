@@ -250,7 +250,6 @@ samp {}
     height: 452px;
     left: 198px;
     top: 815px;
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -262,7 +261,6 @@ samp {}
     position: static;
     width: 671px;
     height: 120px;
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -344,7 +342,6 @@ samp {}
     justify-content: flex-start;
     align-items: center;
     padding: 0px;
-    /* border: 2px solid red; */
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -417,7 +414,6 @@ samp {}
     position: absolute;
     width: 1060px;
     height: 371px;
-    /* border: 2px solid red; */
     border-radius: 18px;
     background: rgb(34, 34, 34);
     top: 1367px;
@@ -476,7 +472,6 @@ samp {}
     position: absolute;
     width: 366px;
     height: 312px;
-    /* border: 2px solid red; */
     left: 662px;
     top: 30px;
     border-radius: 18px;
@@ -499,7 +494,6 @@ samp {}
     height: 120px;
     top: 1838px;
     margin: 0px 384.5px;
-    /* border: 2px solid red; */
 }
 
 .bmi-box-ti {
@@ -529,7 +523,6 @@ samp {}
     width: 1440px;
     height: 487px;
     top: 2035px;
-    /* border: 2px solid red; */
     background: rgb(34, 34, 34);
 }
 
@@ -655,14 +648,12 @@ table {
     width: 1060px;
     height: 782px;
     top: 2590px;
-    /* border: 2px solid red; */
     margin: 0 190px;
 }
 
 .team-text {
     width: 671px;
     height: 120px;
-    /* border: 2px solid red; */
     margin: 0 194.5px;
     bottom: 58px;
     display: flex;
@@ -682,7 +673,6 @@ table {
     line-height: 120%;
     letter-spacing: 0%;
     text-align: center;
-    /* border: 2px solid red; */
 }
 
 .team-p {
@@ -717,7 +707,6 @@ table {
     position: static;
     width: 326.67px;
     height: 272px;
-    /* border: 2px solid red; */
     margin: 20px 20px;
     flex: 1 1 25%;
     justify-content: center;
@@ -741,7 +730,6 @@ table {
     width: 1440px;
     height: 489px;
     top: 3500px;
-    /* border: 2px solid red; */
 
 }
 
@@ -761,7 +749,6 @@ table {
     width: 443px;
     height: 176px;
     margin: 0px 102px;
-    /* border: 2px solid red; */
 
 }
 
@@ -794,7 +781,6 @@ table {
     position: static;
     width: 514px;
     height: 249px;
-    /* border: 2px solid red; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -811,7 +797,7 @@ table {
 
     gap: 152;
     padding: 0px;
-    /* border: 2px solid red; */
+    
 }
 
 .get {
