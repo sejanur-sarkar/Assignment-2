@@ -20,7 +20,7 @@
 
 /* banner */
 .benner {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 1440px;
     height: 715px;
     margin: 0 auto;
@@ -61,6 +61,10 @@
     font-size: 1rem;
 }
 
+.icone {
+    display: none;
+}
+
 .nav-brand {
     color: rgb(230, 83, 60);
     font-family: Inter;
@@ -81,7 +85,7 @@
 .header-text {
     width: 600px;
     height: auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position: absolute;
     left: 190px;
     top: 199px;
@@ -137,7 +141,9 @@ samp {}
 
 .button-2 {
     box-sizing: border-box;
-    border: 1px solid red;
+    border: 1px solid rgb(254, 254, 254);
+    background: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
     border-radius: 42px;
     padding: 16px 40px 16px 40px;
     font-family: Inter;
@@ -244,7 +250,7 @@ samp {}
     height: 452px;
     left: 198px;
     top: 815px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -256,7 +262,7 @@ samp {}
     position: static;
     width: 671px;
     height: 120px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -338,7 +344,7 @@ samp {}
     justify-content: flex-start;
     align-items: center;
     padding: 0px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -411,7 +417,7 @@ samp {}
     position: absolute;
     width: 1060px;
     height: 371px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     border-radius: 18px;
     background: rgb(34, 34, 34);
     top: 1367px;
@@ -470,7 +476,7 @@ samp {}
     position: absolute;
     width: 366px;
     height: 312px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     left: 662px;
     top: 30px;
     border-radius: 18px;
@@ -486,54 +492,14 @@ samp {}
     border-radius: 18px;
     background: url(4);
 }
-
-/* six-img */
-.six-img {
-    position: absolute;
-    width: 1060px;
-    height: 581px;
-    border: 2px solid red;
-    top: 1838px;
-    margin: 0px 190px;
-}
-
-.six-img-box {
-    position: static;
-    width: 671px;
-    height: 120px;
-    border: 2px solid red;
-}
-
-.six-img-ti {
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 48px;
-    font-weight: 900;
-    line-height: 120%;
-    letter-spacing: 0%;
-    text-align: left;
-}
-
-.six-img-p {
-    color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.3px;
-    text-align: left;
-    margin: 14px 0px;
-    order: 1;
-}
-
 /* bmi-box */
 .bmi-box {
     position: absolute;
     width: 671px;
     height: 120px;
-    top: 2507px;
+    top: 1838px;
     margin: 0px 384.5px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .bmi-box-ti {
@@ -562,8 +528,8 @@ samp {}
     position: absolute;
     width: 1440px;
     height: 487px;
-    top: 2715px;
-    border: 2px solid red;
+    top: 2035px;
+    /* border: 2px solid red; */
     background: rgb(34, 34, 34);
 }
 
@@ -688,15 +654,15 @@ table {
     position: absolute;
     width: 1060px;
     height: 782px;
-    top: 3290px;
-    border: 2px solid red;
+    top: 2590px;
+    /* border: 2px solid red; */
     margin: 0 190px;
 }
 
 .team-text {
     width: 671px;
     height: 120px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 194.5px;
     bottom: 58px;
     display: flex;
@@ -716,7 +682,7 @@ table {
     line-height: 120%;
     letter-spacing: 0%;
     text-align: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .team-p {
@@ -751,7 +717,7 @@ table {
     position: static;
     width: 326.67px;
     height: 272px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 20px 20px;
     flex: 1 1 25%;
     justify-content: center;
@@ -774,7 +740,7 @@ table {
     position: absolute;
     width: 1440px;
     height: 489px;
-    top: 4160px;
+    top: 3500px;
     border: 2px solid red;
 
 }
@@ -1002,6 +968,14 @@ li {
 }
 
 @media (max-width: 576px) {
+    .benner {
+        position: absolute;
+        width: 393px;
+        height: 1024px;
+        left: 0;
+        top: 0;
+    }
+
     .nav-bar {
         width: 353px;
         height: 43px;
@@ -1011,6 +985,20 @@ li {
 
     .nav-option {
         display: none;
+
+    }
+
+    .icone {
+        display: block;
+        width: 24px;
+        height: 24px;
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
     }
 
     .header-text {
@@ -1060,6 +1048,11 @@ li {
         height: 74.09px;
         left: 214.2px;
         top: 576.6px;
+        font-size: 30.24px;
+    }
+
+    .vi-50-t {
+        font-size: 9.83px;
     }
 
     .Habits {
@@ -1101,68 +1094,272 @@ li {
         align-items: center;
 
     }
-    .run{
+
+    .run {
         position: absolute;
-width: 353px;
-height: 531px;
-left: 20px;
-top: 2488px;
+        width: 353px;
+        height: 531px;
+        margin: 0 20px;
+        left: 2px;
+        top: 2700px;
     }
-    .run-box{
+
+    .run-box {
         position: static;
-width: 287px;
-height: 54px;
+        width: 287px;
+        height: 54px;
+        margin-left: 33px;
+        margin-bottom: 31px;
     }
-    .run-ti{
+
+    .run-ti {
         position: static;
-width: 287px;
-height: 76px;
-font-size: 32px;
+        width: 287px;
+        height: 76px;
+        font-size: 32px;
     }
-    .run-p{
+
+    .run-p {
         position: static;
-width: 287px;
-height: 96px;
-font-size: 14px;
+        width: 287px;
+        height: 96px;
+        font-size: 14px;
     }
-    .button-3{
+
+    .button-3 {
         position: static;
-width: 287px;
-height: 54px;
+        width: 287px;
+        height: 54px;
     }
-    .run-img{
+
+    .run-img {
         position: absolute;
-width: 287px;
-height: 170px;
-left: 33px;
-top: 326px;
+        width: 287px;
+        height: 170px;
+        left: 33px;
+        top: 290px;
+
     }
 
+    .run-img-100 {
+        width: 100%;
+        height: 100%;
+    }
 
-
-
-
-
-
-    .six-img{
+    .team {
         position: absolute;
-width: 353px;
-height: 162px;
-left: 20px;
-top: 3085px;
+        left: 42px;
+        top: 4562px;
     }
-    .bmi-box{
+
+    .bmi-box {
         position: absolute;
-width: 353px;
-height: 124px;
-left: 20px;
-top: 3568px;
+        width: 353px;
+        height: 124px;
+        left: 20px;
+        top: 3280px;
     }
-    .input{
+
+    .bmi-box-ti {
+        position: static;
+        width: 236px;
+        height: 38px;
+        font-size: 32px;
+    }
+
+    .bmi-box-p {
+        position: static;
+        width: 353px;
+        height: 72px;
+        font-size: 14px;
+    }
+
+    .input {
         position: absolute;
-width: 394px;
-height: 772px;
-left: 0;
-top: 3724px;
+        width: 394px;
+        height: 772px;
+        left: 0;
+        top: 3450px;
     }
+
+    .input-ti {
+        position: absolute;
+        width: 167px;
+        height: 19px;
+        margin-left: 20px;
+        top: 0px;
+        font-size: 16px;
+    }
+
+    .input-table {
+        position: absolute;
+        width: 310px;
+        height: 216px;
+        left: 20px;
+        right: 64px;
+        top: 90px;
+        bottom: 480px;
+    }
+
+    .input-box {
+        position: absolute;
+        width: 354px;
+        height: 395px;
+        left: 20px;
+        top: 334px;
+        margin-top: 40px;
+    }
+
+    .input-box-text {
+        position: static;
+        width: 354px;
+        height: 105px;
+    }
+
+    .input-box-ti {
+        position: static;
+        width: 151px;
+        height: 19px;
+        font-size: 16px;
+    }
+
+    .input-box-p {
+        position: static;
+        width: 346px;
+        height: 72px;
+        font-size: 14px;
+    }
+
+    .gap {
+        position: static;
+        width: 353px;
+        height: 168px;
+        margin-bottom: 28px;
+    }
+
+    .input-2 {
+        position: static;
+        width: 170.5px;
+        height: 48px;
+    }
+
+    .team {
+        position: absolute;
+        width: 353px;
+        height: 1188px;
+        top: 4300px;
+        left: 0px;
+    }
+
+    .team-text {
+        position: absolute;
+        width: 309px;
+        height: 124px;
+        left: 42px;
+        top: 10px;
+    }
+
+    .team-ti {
+        font-size: 32px;
+    }
+
+    .team-p {
+        font-size: 14px;
+    }
+
+    .team-img {
+        position: absolute;
+        width: 353px;
+        height: 2000px;
+        top: 110px;
+
+
+    }
+
+    .img-10 {
+        position: static;
+        width: 313px;
+        height: 272px;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: ;
+    }
+
+    .img-1,
+    .img-2,
+    .img-3,
+    .img-4,
+    .img-5,
+    .img-6 {
+        margin: 20px 0;
+
+    }
+
+    .footer {
+        position: absolute;
+        width: 393px;
+        height: 986px;
+        top: 6550px;
+    }
+
+    .foot-box {
+        position: absolute;
+        width: 353px;
+        height: 748px;
+        left: 20px;
+        top: 44px;
+
+    }
+
+    .foot-te {
+        position: static;
+        width: 317px;
+        height: 200px;
+        margin-left: 60px;
+    }
+
+    .foot-ti {
+        font-size: 70px;
+    }
+
+    .foot-p {
+        position: static;
+        width: 317px;
+        height: 96px;
+    }
+
+    .started {
+        position: static;
+        width: 353px;
+        height: 518px;
+        margin-top: 30px;
+    }
+
+    .started-box {
+        position: static;
+        width: 181px;
+        height: 249px;
+        margin-right: 172px;
+
+    }
+
+    .bar {
+        position: absolute;
+        width: 354px;
+        height: 0;
+        left: 19px;
+        top: 864px;
+    }
+
+    .right {
+        position: absolute;
+        width: 328px;
+        height: 24px;
+        left: 18px;
+        top: 905px;
+        font-size: 20px;
+    }
+
 }
